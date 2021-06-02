@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align:center;
+    justify-content: center;
+}
+
+#box1{
+background-color: rgb(73, 159, 240);
+border-radius: 15px;
+padding-top: 20px;
+padding-bottom: 50px;
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 10%;
+border: solid black 1px;
+border-radius: 60px;
+}
+#productprice{
+    color: white;
+    width: 60%;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    flex: 1;
+}
+#priceinput{
+    background:white;
+    color: black;
+    border: solid black 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+   
+}
+#discountamount{
+    color: white;
+    margin: 20px auto;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    width: 60%;
+    flex: 1;
+}
+#discountinput{
+    background: white;
+    color: black; 
+    border: solid black 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#calculate{
+    color: white;
+    background: rgb(108, 194, 108);
+    margin: 20px auto;
+    width: 60%;
+    border: solid rgb(255, 255, 255) 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#calculate h5{
+    margin-bottom: 0rem;
+}
+#total h5{
+    margin-bottom: 0rem;
+}
+#total{
+    color: white;
+    background: rgb(255, 75, 75);
+    margin: 20px auto;
+    width: 60%;
+    border: solid rgb(255, 255, 255) 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
