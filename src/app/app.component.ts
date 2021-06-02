@@ -1,4 +1,7 @@
+import { state } from '@angular/animations';
+import { FormStyle } from '@angular/common';
 import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -10,10 +13,11 @@ export class AppComponent {
 
   public num1!: number;
   public num2!: number;
-
+  public num3!: number;
+ 
 calculate(){
-  let result: any = this.num1*((100-this.num2)/100);
-  document.getElementById('total')!.innerHTML = result;
+  this.num3 = this.num1*((100-this.num2)/100);
+
 }
 }
 
